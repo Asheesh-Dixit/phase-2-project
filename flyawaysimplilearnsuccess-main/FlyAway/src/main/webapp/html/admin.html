@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+      
+<head>
+    <title>
+        Create an HTML button that
+        acts like a link
+    </title>
+      
+    <!-- Style to create button -->
+    <style>
+        .btn {
+            background-color: white;
+            border: 2px solid black;
+            color: grey;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+        }
+        
+        .content {
+		  max-width: 500px;
+		  margin: auto;
+		  padding-top: 10px;
+		  border :1px;
+		}
+        
+    </style>
+</head>
+  
+<body>
+	<div style="text-align:right"><a href='changepassword.html'>
+        <button class="btn">
+            Change Password
+        </button>
+    </a></div>
+
+    <div class="content">
+    <h1>Admin</h1>
+      
+    <!-- Adding button inside the link tag -->
+    <a href='../GetAllFlights'>
+        <button class="btn">
+            Flights
+        </button>
+    </a><br><br>
+    <a href='../GetAllAirlinesServlet'>
+        <button class="btn">
+            Airlines
+        </button>
+    </a><br><br>
+     <a href='../GetAllSources'>
+        <button class="btn">
+            Sources
+        </button>
+    </a><br><br>
+    <a href='../GetAllDestinations'>
+        <button class="btn">
+            Destinations
+        </button>
+    </a>
+    </div>
+    <br><br>
+	<div style="text-align: center;"></div>
+</body>
+  
+</html>                    

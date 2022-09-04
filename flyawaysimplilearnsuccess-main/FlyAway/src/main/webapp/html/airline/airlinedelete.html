@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Delete Airline</title>
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 100px;
+  border :1px;
+}
+
+div {text-align: center;}
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<div style="text-align:right"><a href='changepassword.html'>
+        <button class="btn">
+            Change Password
+        </button>
+    </a></div>
+    <div class="content">
+	<h2>Provide details of airline to be deleted</h2>
+	<form action="../../DeleteAirline" method="post">
+		 Airline id: <input type="text" name="id"/><br/>
+		 <input type="submit" value="Delete"/>
+	</form>
+	</div>
+	<br><br>
+	<div style="text-align: center;"></div>
+</body>
+</html>

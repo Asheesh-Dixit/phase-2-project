@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 100px;
+  border :1px;
+}
+
+div {text-align: center;}
+</style>
+</head>
+<body>
+	
+	<div class="content">
+		<form action="../ValidateUserServlet" method="post">
+			Enter username : <input type="text" name="uname"/><br/><br/>
+			Enter password : <input type="password" name="password"/><br/><br/>
+			<div><input type="submit" value="Login"/></div>
+		</form>
+	</div>
+	<br><br>
+<div style="text-align: center;"></div>
+</body>
+</html>
